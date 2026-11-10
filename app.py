@@ -14,3 +14,5 @@ with st.expander("Version et références / Version and references"):
 
 st.link_button("Dossier maquette et fichiers CAO / Mock-up and CAD files", "https://github.com/jmpuybouffat/ByteNDT-SCANNER-C1/tree/main/maquette_etude")
 st.link_button("Notice du bâti / Base guide", "https://github.com/jmpuybouffat/ByteNDT-SCANNER-C1/blob/main/documentation/NOTICE_BATI_C1_FR_EN.md")
+
+st.link_button("Procédure d’examen — projet FR/EN / Draft examination procedure", "https://github.com/jmpuybouffat/ByteNDT-SCANNER-C1/blob/main/documentation/PROCEDURE_EXAMEN_C1_FR_EN.md")
