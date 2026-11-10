@@ -3,8 +3,8 @@ from pathlib import Path
 import streamlit as st
 import streamlit.components.v1 as components
 st.set_page_config(page_title="BYTE NDT — Scanner C1 — FR / EN",layout="wide",initial_sidebar_state="collapsed")
-st.caption("BYTE NDT · SCANNER C1 · OPÉRATEUR / OPERATOR · ÉTUDE 04 / STUDY 04 — BÂTI + CARTOGRAPHIE C1 / BASE + C1 CARTOGRAPHY")
-st.info("Concept retenu : deux coques moulées sur aérofoil et plateforme, slot intégré et eau dans sa lèvre supérieure. La vue sur colonnettes ci-dessous est une étude antérieure à remplacer. / Selected concept: two shells fitted to airfoil and platform, integrated slot and water supply in its upper lip. The stand-off-supported view below is an earlier study to be replaced.")
+st.caption("BYTE NDT · SCANNER C1 · OPÉRATEUR / OPERATOR · ÉTUDE 05 / STUDY 05 — DEUX COQUES + SLOT INTÉGRÉ / TWO SHELLS + INTEGRATED SLOT")
+st.info("R05 : deux coques conformes et slot intégré, avec circuit d’eau provisoire dans la lèvre supérieure. Maillage de conception ; serrage, patins, motorisation et aptitude à la fabrication restent à vérifier. / R05: two conformal shells and integrated slot, with a provisional upper-lip water circuit. Concept mesh; clamping, pads, motor drive and manufacturing suitability remain to be checked.")
 p=Path(__file__).parent/"scanner_assets"
 # Read the release document directly: never retain an older geometry in cache.
 def document():

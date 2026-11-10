@@ -12,3 +12,7 @@ Upload app.py, requirements.txt and the entire scanner_assets folder to the root
 ## Étude 02 / Study 02
 
 Added nominal conformal base and three guide supports in the 3D assembly. Original C1 calibrated blue cartography follows the same operator position, showing acquired source rows progressively. Reference EDM labels appear at the final shot. No physical acquisition or new UT calculation. The retaining counterpart, pads, final motor drive and full scanner qualification remain pending. CAD study files and bilingual base notes are in `maquette_etude` and `documentation`.
+
+## R05 — Two conformal shells / Deux coques conformes
+
+Conformal shell concept replaces the external rail and stand-offs in the scene. Integrated slot and provisional upper-lip water distributor. Original C1 path and UT cartography retained. See `documentation/CONCEPT_COQUES_C1_FR_EN.md` and the study warnings before using the mesh files. This is not a manufacturing release.
