@@ -3,9 +3,9 @@ from pathlib import Path
 import streamlit as st
 import streamlit.components.v1 as components
 st.set_page_config(page_title="BYTE NDT — Scanner C1 — FR / EN",layout="wide",initial_sidebar_state="collapsed")
-st.caption("BYTE NDT · SCANNER C1 · OPÉRATEUR / OPERATOR · ÉTUDE 03 / STUDY 03 — BÂTI + CARTOGRAPHIE C1 / BASE + C1 CARTOGRAPHY")
+st.caption("BYTE NDT · SCANNER C1 · OPÉRATEUR / OPERATOR · ÉTUDE 04 / STUDY 04 — BÂTI + CARTOGRAPHIE C1 / BASE + C1 CARTOGRAPHY")
 p=Path(__file__).parent/"scanner_assets"
-@st.cache_data
+# Read the release document directly: never retain an older geometry in cache.
 def document():
     return (p/"00_OUVRIR_SCANNER_C1_OPERATEUR_FR_EN.html").read_text()
 with st.expander("Procédure opérateur et couplage / Operator procedure and coupling", expanded=True):
