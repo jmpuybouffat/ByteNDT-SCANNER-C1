@@ -1,0 +1,9 @@
+{
+  "version": "C1_OPERATEUR_ETUDE_01",
+  "source_contact_sha256": "ade2447d9ad2585fefbb58bf1f560576bc7d55342b9c62d0a26bd4f7966cd54c",
+  "path_length_mm": 248.95131340686152,
+  "source_poses": 401,
+  "encoder": "simulated path length; resolution selectable; not calibrated hardware",
+  "UT_acquisition": false,
+  "pose_interpolation": "linear translation and quaternion SLERP between preserved samples"
+}
