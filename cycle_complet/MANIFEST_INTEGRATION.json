@@ -1,0 +1,52 @@
+{
+  "SCENE_C1_SYNCHRONISEE.html": {
+    "source_sha256": "eaee444acfe23c52cccb2e6a32616447682fe8017d39235248b992bc41e20cf8",
+    "integrated_sha256": "b470626fb0f1745af61b9606f026ce5c7ceb5acbfb2deab19071916144aa5e71",
+    "display_hooks_added": true
+  },
+  "C1_DETECTIONS_REFERENCE.csv": {
+    "source_sha256": "f8bf6dddf989ea455ad2d87fe2c2b9aa3d1dcd488c3d4f4c3c67f0ecde7f941b",
+    "integrated_sha256": "f8bf6dddf989ea455ad2d87fe2c2b9aa3d1dcd488c3d4f4c3c67f0ecde7f941b",
+    "display_hooks_added": false
+  },
+  "C1_ETUDE_SLOT.zip": {
+    "source_sha256": "1cfe9b7cfc5e60af56d5f80c1d1d18a15e8ed4ba253d64800c65928a79f472cf",
+    "integrated_sha256": "1cfe9b7cfc5e60af56d5f80c1d1d18a15e8ed4ba253d64800c65928a79f472cf",
+    "display_hooks_added": false
+  },
+  "C1_VALIDATION_REFERENCE.csv": {
+    "source_sha256": "6ed9c3ed8e3508d0067b42393fb75a8461e7dbbf79f13d607f38940634b02ec9",
+    "integrated_sha256": "6ed9c3ed8e3508d0067b42393fb75a8461e7dbbf79f13d607f38940634b02ec9",
+    "display_hooks_added": false
+  },
+  "C1_ANALYSE_DECISION.csv": {
+    "source_sha256": "6dd6267b6989eaf981b56fc34a7d34a49b1d2b31bb1169f78c292ed2f577e742",
+    "integrated_sha256": "6dd6267b6989eaf981b56fc34a7d34a49b1d2b31bb1169f78c292ed2f577e742",
+    "display_hooks_added": false
+  },
+  "00_OUVRIR_CYCLE_C1_FR_EN.html": {
+    "source_sha256": "085cbc2c33401dbdc1a5a6e8770f11c1c0e38b15e805cc3a5876759571f2e2e4",
+    "integrated_sha256": "9eadfdab72d07c10573885ddefb6670d92b05c80f6d567af04b9ffc392cce705",
+    "display_hooks_added": true
+  },
+  "C1_CONTEXTE_REFERENCE.json": {
+    "source_sha256": "d317183d373600850da4d28f09360d1d89093efe39a87513c3fe70ad7cd618a3",
+    "integrated_sha256": "d317183d373600850da4d28f09360d1d89093efe39a87513c3fe70ad7cd618a3",
+    "display_hooks_added": false
+  },
+  "C1_3485_LOIS_FOCALES.csv": {
+    "source_sha256": "9646a9962cbc233c7b1f6b3587b19a15048ddfd05b28411997fa20b99a0aa06c",
+    "integrated_sha256": "9646a9962cbc233c7b1f6b3587b19a15048ddfd05b28411997fa20b99a0aa06c",
+    "display_hooks_added": false
+  },
+  "C1_RAPPORT_REFERENCE.html": {
+    "source_sha256": "85f54c5e206b343dec33796049b1e853924df3ea53e303f013107cde9799fcd2",
+    "integrated_sha256": "85f54c5e206b343dec33796049b1e853924df3ea53e303f013107cde9799fcd2",
+    "display_hooks_added": false
+  },
+  "NOTICE_C1_FR_EN.pdf": {
+    "source_sha256": "58ea6e8f7855c20a4022db9c8694dbfc9b587143b64933a24401e817b78eecb2",
+    "integrated_sha256": "58ea6e8f7855c20a4022db9c8694dbfc9b587143b64933a24401e817b78eecb2",
+    "display_hooks_added": false
+  }
+}

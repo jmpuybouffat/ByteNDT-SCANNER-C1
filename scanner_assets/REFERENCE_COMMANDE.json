@@ -1,9 +1,11 @@
 {
-  "version": "C1_OPERATEUR_ETUDE_01",
+  "version": "C1_SCANNER_EXAMEN_COMPLET_R06",
   "source_contact_sha256": "ade2447d9ad2585fefbb58bf1f560576bc7d55342b9c62d0a26bd4f7966cd54c",
-  "path_length_mm": 248.95131340686152,
+  "path_length_mm": 249.04905865650704,
   "source_poses": 401,
   "encoder": "simulated path length; resolution selectable; not calibrated hardware",
-  "UT_acquisition": false,
-  "pose_interpolation": "linear translation and quaternion SLERP between preserved samples"
+  "UT_acquisition": "Original accepted C1 records replayed, not physical acquisition",
+  "pose_interpolation": "linear translation and quaternion SLERP between preserved samples",
+  "distance_definition": "Accepted C1 CONTACT.contact_arc_lengths: 1601 samples of the original continuous on-skin display path",
+  "previous_polyline_length_401_samples_mm": 248.95131340686152
 }

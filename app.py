@@ -2,13 +2,14 @@
 from pathlib import Path
 import streamlit as st
 import streamlit.components.v1 as components
+from publication_view import build_publication_document
 st.set_page_config(page_title="BYTE NDT — Scanner C1 — FR / EN",layout="wide",initial_sidebar_state="collapsed")
-st.caption("BYTE NDT · SCANNER C1 · OPÉRATEUR / OPERATOR · ÉTUDE 05 / STUDY 05 — DEUX COQUES + SLOT INTÉGRÉ / TWO SHELLS + INTEGRATED SLOT")
-st.info("R05 : deux coques conformes et slot intégré, avec circuit d’eau provisoire dans la lèvre supérieure. Maillage de conception ; serrage, patins, motorisation et aptitude à la fabrication restent à vérifier. / R05: two conformal shells and integrated slot, with a provisional upper-lip water circuit. Concept mesh; clamping, pads, motor drive and manufacturing suitability remain to be checked.")
+st.caption("BYTE NDT · SCANNER C1 · OPÉRATEUR / OPERATOR · ÉTUDE 06 / STUDY 06 — SCANNER + EXAMEN C1 COMPLET / SCANNER + COMPLETE C1 EXAMINATION")
+st.info("R06 : application C1 complète, deux coques conformes et slot intégré, avec circuit d’eau provisoire dans la lèvre supérieure. Maillage de conception ; serrage, patins, motorisation et aptitude à la fabrication restent à vérifier. / R06: full C1 application, two conformal shells and integrated slot, with a provisional upper-lip water circuit. Concept mesh; clamping, pads, motor drive and manufacturing suitability remain to be checked.")
 p=Path(__file__).parent/"scanner_assets"
 # Read the release document directly: never retain an older geometry in cache.
 def document():
-    return (p/"00_OUVRIR_SCANNER_C1_OPERATEUR_FR_EN.html").read_text()
+    return build_publication_document(Path(__file__).parent / "cycle_complet")
 with st.expander("Procédure opérateur et couplage / Operator procedure and coupling", expanded=True):
     procedure_language = st.radio("Langue de la procédure / Procedure language", ["Français", "English"], horizontal=True)
     if procedure_language == "Français":

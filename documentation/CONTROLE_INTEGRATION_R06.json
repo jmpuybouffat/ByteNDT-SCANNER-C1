@@ -1,0 +1,50 @@
+{
+  "scope": "Original UT data, matrices, reference geometry and registration retained; display/control extensions only",
+  "checks": [
+    {
+      "constant": "D",
+      "unchanged": true
+    },
+    {
+      "constant": "OPERATOR",
+      "unchanged": true
+    },
+    {
+      "constant": "ANALYSIS",
+      "unchanged": true
+    },
+    {
+      "constant": "DATA",
+      "unchanged": true
+    },
+    {
+      "constant": "CONTACT",
+      "unchanged": true
+    },
+    {
+      "constant": "BEAM3D",
+      "unchanged": true
+    },
+    {
+      "constant": "C1_REGISTRATION",
+      "unchanged": true
+    }
+  ],
+  "physical_validation": false,
+  "browser_checks": {
+    "full_cycle_page_loaded": true,
+    "two_shells": 2,
+    "mobile_parts": 8,
+    "three_blade_context_preserved": true,
+    "overview_radius_preserved_mm": 440,
+    "overview_residual_clipping_planes": 0,
+    "TFM_traces": 4,
+    "voxel_traces": 5,
+    "export_links_embedded": true,
+    "forward_travel_observed_mm": 6.5,
+    "encoder_counts_at_resolution_0_01_mm": 650,
+    "FR_EN_switch": true,
+    "browser_script_errors": 0
+  },
+  "streamlit_document_build": true
+}

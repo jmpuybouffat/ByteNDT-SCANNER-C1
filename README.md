@@ -16,3 +16,7 @@ Added nominal conformal base and three guide supports in the 3D assembly. Origin
 ## R05 — Two conformal shells / Deux coques conformes
 
 Conformal shell concept replaces the external rail and stand-offs in the scene. Integrated slot and provisional upper-lip water distributor. Original C1 path and UT cartography retained. See `documentation/CONCEPT_COQUES_C1_FR_EN.md` and the study warnings before using the mesh files. This is not a manufacturing release.
+
+## R06 — Complete C1 examination / Examen C1 complet
+
+Full accepted C1 application integrated with conformal scanner overlay, adjacent blades, section views, TFM, voxels, original analyses and report/exports. Shared operator position and simulated encoder. See `documentation/INTEGRATION_EXAMEN_COMPLET_FR_EN.md`. Physical instrumentation remains to be integrated.
