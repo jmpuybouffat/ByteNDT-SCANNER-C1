@@ -1,9 +1,17 @@
 # C1 — Procédure d’examen / Examination procedure
 
-**Identifiant / Identifier : C1-PROC-DRAFT-01**  
+**Identifiant / Identifier : C1-PROC-DRAFT-02**  
 **Statut / Status : projet pour revue, non approuvé / draft for review, not approved**
 
 ## Français
+
+### Méthode et réglages — séquence opérateur
+
+1. Installer le scanner selon ses appuis, son outil de positionnement et les repères prévus.
+2. Vérifier et valider le positionnement : côté de tir, gorge cible, orientation, contact et immobilisation.
+3. Étalonner sur une référence connue : localisation, sensibilité et codeur.
+4. Vérifier les principes de tir, les lois focales, le parcours, le pas d’acquisition et la vitesse retenus.
+5. Vérifier le film d’eau et le signal acoustique de couplage, puis réaliser le scan avec surveillance continue et traçabilité.
 
 ### Objet et références
 
@@ -29,6 +37,12 @@ Utiliser le bloc de référence et les réflecteurs définis par le référentie
 
 Définir et enregistrer le pas d’acquisition, la vitesse admissible, la cadence, les limites de perte de couplage et les conditions de reprise. Ces valeurs ne sont pas déduites des vitesses de démonstration ni de la résolution du codeur simulé.
 
+### Film d’eau et contrôle du couplage acoustique
+
+Avant le départ, vérifier la formation du film d’eau à l’interface sabot–aube, sa continuité et l’alimentation en eau. Pendant tout le déplacement, surveiller l’absence de rupture du film et la disponibilité du couplant. Ce contrôle visuel complète le contrôle acoustique par un signal UT de référence ; il ne prouve pas à lui seul la qualité du couplage.
+
+Définir sur la référence et avec l’instrumentation réelle le signal surveillé, ses variations admissibles, le seuil et la durée de perte de couplage, les règles d’arrêt, de recouvrement et de reprise. Signaler et enregistrer toute perte, arrêter le scan et réexaminer la zone concernée selon ces règles approuvées. L’application actuelle ne mesure ni le débit d’eau ni le couplage acoustique physique ; aucun voyant de conformité ne doit être déduit du mouvement simulé.
+
 ### Exécution et progression du scan
 
 L’opérateur commande l’avance, l’arrêt et le retour. Pour l’examen réel, l’acquisition est associée à la position mesurée par le codeur physique. Afficher ensemble la position, les données UT et la progression de couverture. Suivre le contact, le couplage, les butées et l’état des données. En cas d’accrochage, de perte de couplage ou d’acquisition manquante, arrêter, enregistrer l’anomalie et reprendre selon la règle approuvée en conservant la traçabilité du recouvrement.
@@ -46,6 +60,14 @@ Vérifier la stabilité de l’étalonnage après examen et traiter toute dériv
 Compléter les champs de référentiel et d’acceptation, qualifier le montage et le contact, intégrer et vérifier l’instrumentation réelle, démontrer la couverture et la répétabilité sur une référence représentative, puis faire examiner et approuver la procédure par les responsables désignés.
 
 ## English
+
+### Method and settings — operator sequence
+
+1. Install the scanner using the intended supports, positioning tool and datums.
+2. Verify and validate positioning: entry side, target groove, orientation, contact and secure retention.
+3. Calibrate on a known reference: location, sensitivity and encoder.
+4. Verify firing principles, focal laws, probe path, acquisition pitch and selected speed.
+5. Check the water film and acoustic coupling signal, then scan with continuous monitoring and traceability.
 
 ### Scope and references
 
@@ -70,6 +92,12 @@ Exact probe/wedge references and physical instrument settings require confirmati
 Use the reference block and reflectors required by the applicable code. Check time base, sensitivity, location, coupling, encoder zero, scale and direction. Check the physical encoder over a measured physical distance using an approved tolerance. Verify mounting stability and angular deviation against the 2° requirement; the measurement method and detailed tolerance require approval.
 
 Define and record acquisition pitch, permissible speed, acquisition rate, coupling-loss limits and restart conditions. These values cannot be inferred from demonstration speeds or simulated encoder resolution.
+
+### Water film and acoustic coupling checks
+
+Before starting, check that a continuous water film forms at the wedge–blade interface and that water supply is available. Throughout travel, monitor film continuity and couplant availability. This visual inspection complements UT reference-signal monitoring; it does not alone demonstrate adequate acoustic coupling.
+
+Use the reference and actual instrumentation to establish the monitored signal, permissible variation, coupling-loss threshold and duration, and stop, overlap and restart rules. Flag and record any loss, stop the scan and re-examine the affected zone under those approved rules. The current application measures neither physical water flow nor actual acoustic coupling; no conformity indicator may be inferred from simulated motion.
 
 ### Scan execution and progression
 
