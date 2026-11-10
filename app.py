@@ -4,6 +4,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 st.set_page_config(page_title="BYTE NDT — Scanner C1 — FR / EN",layout="wide",initial_sidebar_state="collapsed")
 st.caption("BYTE NDT · SCANNER C1 · OPÉRATEUR / OPERATOR · ÉTUDE 04 / STUDY 04 — BÂTI + CARTOGRAPHIE C1 / BASE + C1 CARTOGRAPHY")
+st.info("Concept retenu : deux coques moulées sur aérofoil et plateforme, slot intégré et eau dans sa lèvre supérieure. La vue sur colonnettes ci-dessous est une étude antérieure à remplacer. / Selected concept: two shells fitted to airfoil and platform, integrated slot and water supply in its upper lip. The stand-off-supported view below is an earlier study to be replaced.")
 p=Path(__file__).parent/"scanner_assets"
 # Read the release document directly: never retain an older geometry in cache.
 def document():
@@ -28,3 +29,5 @@ st.link_button("Dossier maquette et fichiers CAO / Mock-up and CAD files", "http
 st.link_button("Notice du bâti / Base guide", "https://github.com/jmpuybouffat/ByteNDT-SCANNER-C1/blob/main/documentation/NOTICE_BATI_C1_FR_EN.md")
 
 st.link_button("Procédure d’examen — projet FR/EN / Draft examination procedure", "https://github.com/jmpuybouffat/ByteNDT-SCANNER-C1/blob/main/documentation/PROCEDURE_EXAMEN_C1_FR_EN.md")
+
+st.link_button("Concept coques et alimentation en eau / Shell and water-supply concept", "https://github.com/jmpuybouffat/ByteNDT-SCANNER-C1/blob/main/documentation/CONCEPT_COQUES_C1_FR_EN.md")
